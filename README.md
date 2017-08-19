@@ -1,7 +1,7 @@
 # EternalDraftSim_v0.1
 An Eternal Card Game draft simulator implemented using JS, PHP, and MySQL.
 
-The draft system implemented in Eternal is asynchronous, i.e. instead of passing packs around the table the player receives a range of packs from the game’s database where they are stored after other players made picks from them. Because of this, the player is never constrained for time when making picks and this simulator is written to reflect this mechanic.
+The draft system implemented in Eternal is asynchronous, i.e. instead of passing packs around the table, as is the case in Magic the Gathering, the player receives a range of packs from the game’s database where they are stored after other players made picks from them. Because of this, the player is never constrained for time when making picks and this simulator is written to reflect this mechanic.
 
 The booster generator (boostgen.php) function differs little from those used in previous projects and is a revamped version thereof pulling cards from a MySQL database (TET) to produce 12-card boosters of the game.
 
