@@ -35,7 +35,7 @@ $conn->query("INSERT INTO drafts (draft) VALUES (" . "\"" . $array . "\"" . ")")
 	</head>
 	<body>
 		<header>
-			<div class="container">
+			<!--<div class="container">
 				<div id="branding">
 					<h1><span class="highlight">Eternal</span> Draft Sim</h1>
 				</div>
@@ -46,7 +46,7 @@ $conn->query("INSERT INTO drafts (draft) VALUES (" . "\"" . $array . "\"" . ")")
 						<li class="current"><a href="http://localhost/limgen/showcase/overhaul/draftsim.php">Simulator</a></li>
 					</ul>
 				</nav>
-			</div>
+			</div>-->
 		</header>
 		<section id="draftBackground">
 			<div class="all" id="all">

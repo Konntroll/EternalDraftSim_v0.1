@@ -1,0 +1,12 @@
+{
+    "name": "konntroll/eternal",
+    "description": "Eternal draft simulator by Konntroll",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gregory K",
+            "email": "grigory.koltashev@gmail.com"
+        }
+    ],
+    "require": {}
+}
