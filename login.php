@@ -10,7 +10,6 @@
 	$query_builder = TRUE;
 	
 	$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-	//$conn = new mysqli($servername, $username, $password, $dbname);
 	
 	//provisional clause for output in case of connection failure
 	if ($conn->connect_error) {
